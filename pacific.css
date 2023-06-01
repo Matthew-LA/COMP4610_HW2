@@ -1,0 +1,96 @@
+/*
+File: pacific.css
+GUI Assignment: Style a Site with External CSS
+Description: Styling .html page only using .css file
+Matthew Lorette Anaya, UMass Lowell Computer Science, Matthew_loretteanaya@student.uml.edu
+Copyright (c) 2021 by Matthew Lorette Anaya. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Matthew Lorette Anaya on June 1, 2023
+*/
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+    background: #00569f url(ptrbackground.jpg) left top repeat-x;
+    margin: 20px 100px 70px 100px;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    height: calc(1.3em * 13);
+    object-fit: cover;
+    float: left;
+    margin-right: 30px;
+}
+header {
+    background: #000032 url(sunset.jpg) right no-repeat;
+    color: #ffffff;
+}
+nav {
+    width: 190px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.25em;
+}
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000032;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+    color: #ffffff;
+}
+h1 {
+    margin: 0;
+	padding: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+h2 {
+    padding: 20px 0;
+    margin: 0;
+    color: #3399CC;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.65em
+}
+footer {
+    margin-left: 190px;
+    padding: 20px;
+    background-color: #ffffff;
+    font-style: italic;
+    font-size: 0.75em;
+    font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+    min-width: 600px;
+    width: 90%;
+    background-color: #90c8e3;
+    margin: 0 auto;
+}
+#content {
+    margin-left: 190px;
+    background-color: #ffffff;
+    padding: 0 20px 15px 30px;
+}
+#content p {
+    margin: 0;
+    font-size: 1.1em;
+}
+#content > ul {
+    list-style: inside url('marker.gif');
+    padding: 0;
+    font-size: 1.1em;
+}
+#contact {
+    font-size: 95%;
+}
+.resort {
+    font-weight: bold;
+    color: #5b7f9f;
+}
